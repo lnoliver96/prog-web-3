@@ -1,0 +1,135 @@
+/*Importando fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/*Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Thoma, sans-serif;
+    }
+    
+/*Estilo do Body*/
+body{
+    background-color: #B0DEE6;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+/*Estilo do h1*/
+h1{
+    /*Usando a fonte que foi importada*/
+    font-family: "Parisienne", cursive;
+    text-align: center;
+    margin-top: 100px;
+}
+/*Estilo do Header*/
+header{
+    min-height:auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 20px;
+    background-color: #917965;
+}
+/*Estilo do Body*/
+footer{
+    background-color: #365F66;
+    min-width:50px;
+    min-height:50px;
+    margin-top:auto;
+    color:#B0DEE6;
+    text-align: center;
+}
+/*Estilo da lista*/
+li {
+    list-style: none;
+    font-size: 1.2rem;
+    }
+/*Estilo da tag ancora*/
+a{
+    /*Remove sublinhado*/
+    text-decoration: none;
+    color: #3C2716;
+    }
+/*Display da classe menu*/
+.menu{
+    display: flex;
+}
+/*Estilo da lista da classe menu*/
+.menu li{
+    margin-left:20px;
+}
+/*Estilo da tag ancora da lista da classe menu*/
+.menu li a{
+    padding: 5px;
+    }
+
+
+/*Estilo da imagem*/
+img{
+    margin-left:20px;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    width: auto;
+    height: auto;
+}
+/*Estilo da clsse flex e suas tags especificas*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.descricao > p{
+    margin-top: 10px;
+    width: 30vw;
+    text-align: center;
+    padding: 10px;
+}
+/*Display do input e do botão*/
+input, button{
+    display: block;
+
+}
+/*Estilo do fieldset*/
+fieldset{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border: 0;
+    flex-direction: column;
+}
+/*Estilo do botão*/
+button{
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
+    background-color: #365F66;
+    color: aliceblue;
+    border: none;
+}
+/*Estilo do input*/
+input, textarea{
+    background-color: transparent;
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #1b2e31;
+    padding: 1% 1% 0 1%;
+    width: 20vw;
+    height: 10vh;
+}
