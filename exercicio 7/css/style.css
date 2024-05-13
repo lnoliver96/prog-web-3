@@ -1,0 +1,61 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+header{
+    background-color: gray;
+    height: 5vh;
+    display: flex;
+}
+
+.menu {
+    display: none;
+    cursor:pointer;
+    position: absolute;
+}
+
+span {
+    background-color: blue;
+    padding: 1em;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+p {
+    font-size: 0.9em;
+    margin-top: 0.2em;
+    color: gray;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    background-color: lightgray;
+    padding: 0.5em;
+    width: 85%;
+}
+
+input, button{
+    width: 100%;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 0.5em;
+}
+
+section {
+    position: relative;
+}
+

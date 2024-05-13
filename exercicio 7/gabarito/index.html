@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="menu.js" defer></script>
+</head>
+
+<body>
+    <div class="simplemenu">
+        <button class="dropbtn" onclick="AbrirMenu()">Menu</button>
+        <ul class="dropdown-content" id="dropdown-content">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Login</h1>
+        </header>
+
+        <form id="frm" class="form">
+            <div class="form-control">
+                <label for="txtUsuario">Usuário:</label>
+                <input type="text" name="txtUsuario" id="txtUsuario">
+                <p id = "erroUsuario"></p>
+            </div>
+            <div class="form-control">
+                <label for="txtSenha">Senha:</label>
+                <input type="password" name="txtSenha" id="txtSenha">
+                <p id = "erroSenha"></p>
+            </div>
+
+            <button type="submit">Autenticar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
